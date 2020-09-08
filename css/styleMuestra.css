@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+#TituloUno:hover{
+	transform: scale(1.5);
+transition: 1s;
+}
+h1{
+	color: #fff;
+  font-size: 15vw;
+  font-weight: 100;
+  text-align: center;
+  width: 100%;
+}
+
+
+
+#logo{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+#TituloUno{
+color: white; text-shadow: black 0.1em 0.1em 0.2em;
+
+}
+
+
+
+
+
+#central{
+  background-color:#ffffff ;
+  float: left;
+}
+#contcard{
+  justify-content: left;
+  align-items: left;
+}
+.morado{
+  background-color:rgb(100, 41, 128) ;
+  transition: all 1s ease;
+}
+
+ul#ejm2 li a{
+  position: relative;
+  font-weight:bold;
+  color:#0E83CD;
+  margin: 0px 15px;
+}
+ul#ejm2 li a:after{
+  position: absolute;
+  bottom: 7px;
+  left: 0px;
+  width: 100%;
+  height: 4px;
+  background-color: #FFD743;
+  content: "";
+  opacity: 0;
+  transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+  transform: translateY(20px);        
+}
+ul#ejm2 li a:hover:after{
+  opacity:1;
+  transform: translateY(15px)
+}
+
+
+ul#ejm2 li a:after{
+  position: absolute;
+  bottom: 7px;
+  left: 0px;
+  width: 100%;
+  height: 4px;
+  background-color: rgb(141, 59, 173);
+  content: "";
+  opacity: 0;
+  transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+  transform: translateY(20px);        
+}
+ul#ejm2 li a:hover:after{
+  opacity:1;
+  transform: translateY(15px)
+}
+#TituloTres{
+  text-align: left;
+  font-family: 'Satisfy', cursive;
+}
+@media screen and (max-width:1217px) {
+  #contcard{
+    grid-auto-flow: row;
+  }
+}
+
+#face,#insta,#what{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  filter: invert(1);
+}
+#contenedorf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#contenedorfe{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  
+}
+#fot{
+  text-align: center;
+  color: white;
+}
+#imgMOD{
+  width: 250px;
+  height:250px;
+}
+#inputs{
+  width: 250px;
+}
+#TextA {
+  width:250px;
+  height:100px;
+  resize: none;
+}
+#colmnaMOD-1{
+  text-align: center;
+}
+#fote{
+  text-align: left;
+  color: white;
+}
+
+
+
+  
+
+ @media screen and (max-width:986px) {
+ #conModal{
+ width: 700px;
+ }
+ }
+ @media screen and (max-width:766px) {
+  #conModal{
+  width: 450px;
+  }
+  #contenedorMod{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+  #inputs{
+    width: 400px;
+  }
+  #TextA {
+    width:400px;
+    height:100px;
+    resize: none;
+  }
+  }
+
+  #colorboton{
+    background-color:rgb(100, 41, 128) ;
+
+  }
+  #ImgCAR{
+    height: 400px;
+  }
+  #cardIMG{
+height: 25%;
+object-fit: cover;
+  }
+
+  #combobox{
+    width: 100px;
+  }
+  
+  hr{
+      height:2px;
+  
+  }

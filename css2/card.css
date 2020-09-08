@@ -1,0 +1,49 @@
+
+
+  table tr {
+    border: 2px solid #ddd;
+    padding: 10px;
+		background: #fff;
+
+  }
+  @media screen and (max-width:750px) {
+
+   
+
+   #card table thead {
+      display: none;
+    }
+    .table {
+      width: 350px;
+      margin-bottom: 1rem;
+      color: #212529;
+  }
+   #card table tr {
+      margin-bottom: 5px;
+      display: block;
+      border-bottom: 5px solid #ddd;
+	 box-shadow: 2px 2px 1px #dadada;
+
+    }
+
+   #card table td {
+      display: block;
+      text-align: right;
+      font-size: 16px;
+    }
+
+   #card table td:last-child {
+      border-bottom: 0;
+    }
+
+   #card table td::before {
+      content: attr(data-label);
+      float:left;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    	#card	tbody{
+			line-height:0!important;
+		}
+
+  }
